@@ -27,7 +27,7 @@ describe('TodoApp', () => {
 			id: 11,
 			text: 'Test text',
 			completed: false,
-			createdAt: 0.
+			createdAt: 0,
 			completedAt: undefined
 		};
 		var todoApp = TestUtils.renderIntoDocument(<TodoApp/>);
@@ -45,7 +45,7 @@ describe('TodoApp', () => {
 			id: 11,
 			text: 'Test text',
 			completed: true,
-			createdAt: 0.
+			createdAt: 0,
 			completedAt: 123
 		};
 		var todoApp = TestUtils.renderIntoDocument(<TodoApp/>);
